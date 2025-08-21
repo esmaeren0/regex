@@ -2,6 +2,7 @@
 
 normal aramadan farklı olarak sabiit bir kelimeyi değil belirli kurallara uyan metinleri yaklar.
 
+
 | Sembol | Açıklama                       | Örnek | Açıklama |
 |--------|--------------------------------|-------|----------|
 | `.`    | Herhangi bir karakter           | `a.b` | "aab", "acb" eşleşir |
@@ -18,12 +19,12 @@ normal aramadan farklı olarak sabiit bir kelimeyi değil belirli kurallara uyan
 | `\D`   | Sayı olmayan karakter ile eşleşir          | `\D+` | "abc", "#" eşleşir |
 | `\w`   | Kelime karakteri (harf, sayı, _) özel karakterler ile eşleşmez  | `\w+` | "abc", "abc_123" eşleşir |
 | `\W`   | özel  karakter          | `\W+` | "@#!", " " eşleşir |
-| `\s`   | Boşluk karakteri  ile eşleşir               | `\s+` | " ", "\t", "\n" 
-|
+| `\s`   | Boşluk karakteri  ile eşleşir               | `\s+` | " ", "\t", "\n" |
 | `\S`   | Boşluk olmayan karakter         | `\S+` | "abc", "123" eşleşir |
 
 
 örnek kullanım senaryoları 
+
 
 | Amaç                               | Regex Örneği                 | Açıklama |
 |-----------------------------------|-----------------------------|----------|
@@ -34,6 +35,8 @@ normal aramadan farklı olarak sabiit bir kelimeyi değil belirli kurallara uyan
 | Tarih (YYYY-MM-DD)                  | `^\d{4}-\d{2}-\d{2}$`       | 2025-08-21 gibi |
 
 regex özel karakter grupları 
+
+
 | Grup / Karakter | Anlamı                   | Örnek   | Açıklama |
 |-----------------|--------------------------|---------|----------|
 | `(abc)`          | Grup                      | `(ab)+` | "ab", "abab" |
