@@ -1,3 +1,4 @@
+Basit bir Bash scripti ile log dosyalarından IP adreslerini, HTTP durum kodlarını ve API isteklerini analiz eder ve IP listesini CSV’ye kaydeder.
 #!/bin/bash
 # Regex Log Analizi 
 
