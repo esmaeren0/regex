@@ -1,5 +1,7 @@
-# REGEX
+# REGEX- GREP
 
+
+# REGEX 
 normal aramadan farklı olarak sabiit bir kelimeyi değil belirli kurallara uyan metinleri yaklar.
 
 
